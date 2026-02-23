@@ -29,6 +29,10 @@ Toggle.new(farmTab, "Auto Quest", false, function(state)
     autoQuest.Enabled = state
 end)
 
+Toggle.new(farmTab, "Auto Mastery Farm", false, function(state)
+    autoMastery.Enabled = state
+end)
+
 Toggle.new(farmTab, "Auto Chest Farm", false, function(state)
     autoChest.Enabled = state
 end)
