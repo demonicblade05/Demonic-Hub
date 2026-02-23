@@ -25,6 +25,10 @@ Button.new(mainTab, "Test Button", function()
     print("Button clicked!")
 end)
 
+Toggle.new(farmTab, "Auto Chest Farm", false, function(state)
+    autoChest.Enabled = state
+end)
+
 Toggle.new(fruitTab, "Auto Fruit Grab", false, function(state)
     autoFruit.Enabled = state
 end)
