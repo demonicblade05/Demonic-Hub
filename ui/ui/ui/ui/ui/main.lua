@@ -13,6 +13,11 @@ local win = Window.new("Demonic Hub")
 
 -- Create tabs
 local mainTab = Tab.new(win, "Main")
+local farmTab = Tab.new(win, "Auto Farm")
+local bossTab = Tab.new(win, "Bosses")
+local fruitTab = Tab.new(win, "Fruits")
+local seaTab = Tab.new(win, "Sea Events")
+local espTab = Tab.new(win, "ESP")
 local settingsTab = Tab.new(win, "Settings")
 
 -- Add UI elements to Main tab
