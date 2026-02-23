@@ -25,6 +25,10 @@ Button.new(mainTab, "Test Button", function()
     print("Button clicked!")
 end)
 
+Toggle.new(farmTab, "Auto NPC Farm", false, function(state)
+    autoNPC.Enabled = state
+end)
+
 Toggle.new(mainTab, "Enable Feature", false, function(state)
     print("Toggle state:", state)
 end)
