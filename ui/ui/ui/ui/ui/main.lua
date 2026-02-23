@@ -24,6 +24,26 @@ Toggle.new(mainTab, "Enable Feature", false, function(state)
     print("Toggle state:", state)
 end)
 
+Toggle.new(mainTab, "NPC ESP", false, function(state)
+    ESP.Enabled.NPC = state
+end)
+
+Toggle.new(mainTab, "Player ESP", false, function(state)
+    ESP.Enabled.Player = state
+end)
+
+Toggle.new(mainTab, "Boss ESP", false, function(state)
+    ESP.Enabled.Boss = state
+end)
+
+Toggle.new(mainTab, "Fruit ESP", false, function(state)
+    ESP.Enabled.Fruit = state
+end)
+
+Toggle.new(mainTab, "Chest ESP", false, function(state)
+    ESP.Enabled.Chest = state
+end)
+
 Slider.new(mainTab, "Speed", 1, 100, 50, function(value)
     print("Slider value:", value)
 end)
