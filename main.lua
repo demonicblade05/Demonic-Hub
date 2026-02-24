@@ -18,6 +18,10 @@ ui.Button.new(window, "Test Button", function()
     print("Button clicked")
 end)
 
+ui.Toggle.new(window, "Auto Attack", false, function(state)
+    getgenv().AutoAttack = state
+end)
+
 ui.Toggle.new(window, "Test Toggle", false, function(state)
     print("Toggle:", state)
 end)
