@@ -22,6 +22,34 @@ ui.Toggle.new(window, "Auto Attack", false, function(state)
     getgenv().AutoAttack = state
 end)
 
+ui.Toggle.new(window, "Auto NPC", false, function(state)
+    getgenv().AutoNPC = state
+end)
+
+ui.Toggle.new(window, "Auto Boss", false, function(state)
+    getgenv().AutoBoss = state
+end)
+
+ui.Toggle.new(window, "Auto Fruit", false, function(state)
+    getgenv().AutoFruit = state
+end)
+
+ui.Toggle.new(window, "Auto Chest", false, function(state)
+    getgenv().AutoChest = state
+end)
+
+ui.Toggle.new(window, "Auto Quest", false, function(state)
+    getgenv().AutoQuest = state
+end)
+
+ui.Toggle.new(window, "Auto Mastery", false, function(state)
+    getgenv().AutoMastery = state
+end)
+
+ui.Toggle.new(window, "Auto Sea", false, function(state)
+    getgenv().AutoSea = state
+end)
+
 ui.Toggle.new(window, "Test Toggle", false, function(state)
     print("Toggle:", state)
 end)
